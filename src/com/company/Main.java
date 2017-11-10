@@ -10,6 +10,6 @@ public class Main {
         }
 
         PasswordGenerator myPassword = new PasswordGenerator();
-        System.out.println(myPassword.makePassword());
+        System.out.println("Generated password: " + myPassword.makePassword());
     }
 }
