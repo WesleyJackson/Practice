@@ -4,10 +4,10 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class PasswordGenerator {
-    private String password = "";
-    private final String characters = "0)1!2@3#4$5%6^7&8*9(aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ";
+    private static String password = "";
+    private static final String characters = "0)1!2@3#4$5%6^7&8*9(aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ";
 
-    public String makePassword() {
+    public static String makePassword() {
         Scanner scanner = new Scanner(System.in);
         Random rand = new Random();
 
