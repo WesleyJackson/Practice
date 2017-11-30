@@ -1,5 +1,6 @@
 package com.company.Katas;
 
+//Static example
 public class FizzBuzz {
 
     public static String getAnswer(int number) {
